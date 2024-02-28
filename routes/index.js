@@ -1,4 +1,4 @@
-var router = require('express').Router();
+const router = require('express').Router();
 const { requiresAuth } = require('express-openid-connect');
 
 const axios = require("axios");
